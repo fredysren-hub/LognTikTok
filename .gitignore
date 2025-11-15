@@ -1,0 +1,14 @@
+# File log dan data sensitif
+log.txt
+*.log
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# File sistem
+.DS_Store
